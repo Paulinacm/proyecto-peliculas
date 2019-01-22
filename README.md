@@ -1,4 +1,4 @@
-# Proyecto-Peliculas<hr>
+# Proyecto-Películas<hr>
 
 44444 es una plataforma tipo top 10, donde puedes ver los datos de las peliculas infantiles  mas vistas, basadas en videojuegos.<br>
 
