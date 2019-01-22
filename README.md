@@ -15,6 +15,9 @@ Se crea un prototipo de usuario en base a un jugador frecuente de diferentes vid
 -Nombre: **Miguel Guacarán**<br>
 -Trabajo: **Estudiante de educación básica**<br>
 -Ubicación: **Santiago**<br>
+-Conocimientos de informatica: **Básico**<br>
+-Ordenador: **tablet samgsun**<br>
+-Horario: **En vacaciones casi todo el dia, durante las clases, 2 horas en las tardes.**<br>
 -Jugador frecuente<br>
 
 
