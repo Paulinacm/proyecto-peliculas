@@ -1,8 +1,10 @@
+//busca información
 function find(){
+    //trae el titulo(lo que escribió usuario)
     let titleMovie = document.getElementById("movie").value;
-    searchMovie(titleMovie);
+    //va a la api yle pasa el nombre de pelicula de usuario y el 1
+    searchMovie(titleMovie,1);
 }
-let infoMovie;
 //angry birds
 document.getElementById("pictureAngry").addEventListener("click",function(){
     searchMovie("Angry birds");
