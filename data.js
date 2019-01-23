@@ -17,4 +17,4 @@ function printMovie(data){
     
     console.log(data);
 
-}
+} 
