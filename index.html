@@ -5,18 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackaton</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <input type="text" id= "movie">
-    <input type="button" value="Buscar" onclick="find()">
-        <!-- Modal -->
+<div class="container">
+  <div class="row Rectangle">
+    <div class="col-9"></div>
+    <div class="col-3">
+        <input type="text" id= "movie">
+        <input type="button" value="Buscar" onclick="find()">
+    </div>
+         
+  </div>
+</div>
+      <!-- Modal -->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel"></h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -32,18 +39,210 @@
           </div>
         </div>
       </div>
+    <p></p>
       <!--Creación de botones para carrousel de bootstrap -->
-<input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" id = "pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" id = "pictureResident" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" id="pictureMinecraft" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" id="pictureSonic" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" id="pictureDigimon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="../Documentos/laboratoria/peliculas/imagenes/mario.jpg" id="pictureMario" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="/home/laboratoriad313/Documentos/laboratoria/peliculas/imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
-<input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle" width="75px" height="75px">
+      <!--Primer carrusel-->
+      <div class="container">
+          <div class="row">
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="slide-box">
+                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" id = "pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" id = "pictureResident" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" id="pictureMinecraft" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" id="pictureSonic" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" id="pictureDigimon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                      </div>
+                </div> 
+                <div class="carousel-item">
+                    <div class="slide-box">
+                        <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="imagenes/mario.jpg" id="pictureMario" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                    </div>
+                </div>
+             </div> 
+            </div>
+          </div>
+        </div>
+      <p></p>
+        <!--fin-->
+              <!--Carrosel 2 -->
+      <div class="container">
+          <div class="row Rectangle-2">
+            <div class="col-3">
+              <a class="Texto">Estrenos</a>
+            </div>
+            <div class="col-9">
+                <div id="carousel2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="slide-box">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" id = "pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" id = "pictureResident" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" id="pictureMinecraft" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" id="pictureSonic" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" id="pictureDigimon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                            </div>
+                      </div> 
+                      <div class="carousel-item">
+                          <div class="slide-box">
+                              <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/mario.jpg" id="pictureMario" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                          </div>
+                      </div>
+                   </div> 
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      <p></p>
+        <!--fin-->
+         <!--Carrosel 3 -->
+      <div class="container">
+          <div class="row Rectangle-3">
+            <div class="col-3">
+              <a class="Texto">Favoritos</a>
+            </div>
+            <div class="col-9">
+                <div id="carousel3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="slide-box">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" id = "pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" id = "pictureResident" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" id="pictureMinecraft" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" id="pictureSonic" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" id="pictureDigimon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                            </div>
+                      </div> 
+                      <div class="carousel-item">
+                          <div class="slide-box">
+                              <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/mario.jpg" id="pictureMario" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                          </div>
+                      </div>
+                   </div> 
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      <p></p>
+        <!--fin-->
+          <!--Carrosel 4 -->
+      <div class="container">
+          <div class="row Rectangle-4">
+            <div class="col-3">
+              <a class="Texto">Juegos</a>
+            </div>
+            <div class="col-9">
+                <div id="carousel4" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="slide-box">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" id = "pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" id = "pictureResident" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" id="pictureMinecraft" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" id="pictureSonic" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" id="pictureDigimon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                            </div>
+                      </div> 
+                      <div class="carousel-item">
+                          <div class="slide-box">
+                              <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/mario.jpg" id="pictureMario" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                          </div>
+                      </div>
+                   </div> 
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      <p></p>
+        <!--fin-->
+          <!--Carrosel 5 -->
+      <div class="container">
+          <div class="row Rectangle-5">
+            <div class="col-3">
+              <a class="Texto">Otros Recursos</a>
+            </div>
+            <div class="col-9">
+                <div id="carousel5" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="slide-box">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" id = "pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" id = "pictureResident" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" id="pictureMinecraft" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" id="pictureSonic" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" id="pictureDigimon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                            </div>
+                      </div> 
+                      <div class="carousel-item">
+                          <div class="slide-box">
+                              <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/mario.jpg" id="pictureMario" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                              <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
+                          </div>
+                      </div>
+                   </div> 
+                  </div>
+            </div>
+            
+          </div>
+        </div>
+      <p></p>
+        <!--fin-->
 
+
+
+        <footer class="page-footer font-small">
+            <div class="titulo Footer">
+              <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                                <a href="https://github.com/MarceArratia"> Marcela Arratia</a>
+                              </div>
+                  </div>
+                  <div class="col-md-6 col-lg-7 text-center text-md-right">
+                    <a class="fb-ic">
+                      <i class="fab fa-facebook-f white-text mr-4"> </i>
+                    </a>
+                    <a class="tw-ic">
+                      <i class="fab fa-twitter white-text mr-4"> </i>
+                    </a>
+                    <a class="gplus-ic">
+                      <i class="fab fa-google-plus-g white-text mr-4"> </i>
+                    </a>
+                    <a class="li-ic">
+                      <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                    </a>
+                    <a class="ins-ic">
+                      <i class="fab fa-instagram white-text"> </i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
