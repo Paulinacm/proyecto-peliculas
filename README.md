@@ -280,12 +280,16 @@ insertar aqui storyboard
 ### Paleta de Colores
 
 
+Elegimos estos colores porque están todos asociados a Pokemon Go, de tal manera que el usuario al acceder a la página inmediatamente entienda que se trata de una aplicación asociada al juego.
 
-![enter image description here](https://lh3.googleusercontent.com/ITDops7gAr8leaM9wV9KwzvkoOPmdED1OZbqMyYffnQgzVkF-WxD91xD47nYU_wYYxKq99SPOXcB "paleta de colores")
 
 ### Tipografía
 
-  Se utilizó tipografía [Roboto.](https://fonts.google.com/specimen/Roboto) *Sans-serif* que corresponde a un estilo moderno, debido a que la página que está orientada principalmente a un público jóven.
+  
+
+La tipografía elegida es *Sans-serif* que corresponde a un estilo moderno, debido a que la página que está orientada principalmente a un público jóven.
+
+Se utilizó tipografía [Roboto.](https://fonts.google.com/specimen/Roboto)
 
 
 ### Iconos & Ilustraciones
