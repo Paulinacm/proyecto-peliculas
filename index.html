@@ -8,14 +8,35 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
+<!-- // este dejalo con container-fluid para que se ajuste a la pantalla
+<div class="container">
+  // este define la fila
+  <div class="row">
+    // cada columna, si no tiene número la clase, se ajustan de forma automática
+    // col-1 sería 1 columna de ancho en todos los dispositivos
+    // si tiene col-12 col-md-6 col-lg-3, es que inicialmente va a a tener todoel ancho, en pantallas tamaño tables
+    sera de 6 columnas de ancho y en pantallas grandes tendra 3 columnas de ancho
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div> -->
+
+<header class="container-fluid">
 <div class="container">
   <div class="row Rectangle">
-    <div class="col-9"></div>
+    <div class="col-12 col-md-6 col-lg-3">
     <div class="col-3">
         <input type="text" id="movie" class="rounded round">
         <input type="button" value="Buscar" onclick="find()" data-toggle="modal" data-target="#modalFind">
-    </div> 
+    </div>
+  </div>
   </div>
 </div>
 <!--Modal para busqueda-->
@@ -41,7 +62,7 @@
 <!--fin modal busqueda-->
   </header>
       <!-- Modal de peliculas top 10-->
-<section>
+<section class="container-fluid">
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
