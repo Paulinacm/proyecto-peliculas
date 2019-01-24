@@ -8,28 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- // este dejalo con container-fluid para que se ajuste a la pantalla
-<div class="container">
-  // este define la fila
-  <div class="row">
-    // cada columna, si no tiene número la clase, se ajustan de forma automática
-    // col-1 sería 1 columna de ancho en todos los dispositivos
-    // si tiene col-12 col-md-6 col-lg-3, es que inicialmente va a a tener todoel ancho, en pantallas tamaño tables
-    sera de 6 columnas de ancho y en pantallas grandes tendra 3 columnas de ancho
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-    <div class="col-sm">
-      One of three columns
-    </div>
-  </div>
-</div> -->
-
 <header class="container-fluid">
-<div class="container">
   <div class="row Rectangle">
     <div class="col-12 col-md-6 col-lg-3">
     <div class="col-3">
@@ -38,8 +17,8 @@
     </div>
   </div>
   </div>
-</div>
-<!--Modal para busqueda-->
+</header>
+<!--Modal resultado de busqueda-->
 <div class="modal fade" id="modalFind" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -59,10 +38,7 @@
     </div>
   </div>
   </div>
-<!--fin modal busqueda-->
-  </header>
       <!-- Modal de peliculas top 10-->
-<section class="container-fluid">
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
@@ -85,10 +61,33 @@
       </div>
     <p></p>
       <!--Creación de botones para carrousel de bootstrap -->
+<!--fin modal busqueda-->
+
+<!--<div class="container-fluid">
+  // este define la fila
+  <div class="row">
+    // cada columna, si no tiene número la clase, se ajustan de forma automática
+    // col-1 sería 1 columna de ancho en todos los dispositivos
+    // si tiene col-12 col-md-6 col-lg-3, es que inicialmente va a a tener todoel ancho, en pantallas tamaño tables
+    sera de 6 columnas de ancho y en pantallas grandes tendra 3 columnas de ancho
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
+</div> -->
       <!--Primer carrusel top 10-->
-      <div class="container">
+<section>
+  <div class="container-fluid">
           <div class="row">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="col-12 col-md-6 col-lg-3">
+              <p>Top 10</p>
+              <div id="carousel" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="slide-box">
@@ -108,15 +107,15 @@
                         <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
                     </div>
                 </div>
-             </div> 
+             </div>
+             </div>
             </div>
           </div>
         </div>
-      <p></p>
-        <!--fin-->
 </section>
+        <!--fin-->
               <!--Carrusel 2 estreno-->
-      <div class="container">
+      <div class="container-fluid">
           <div class="row Rectangle-2">
             <div class="col-3">
               <a class="Texto">Estrenos</a>
@@ -281,6 +280,7 @@
       <p></p>
         <!--fin-->
                <!--Carrosel 3 favoritos -->
+               
       <div class="container">
           <div class="row Rectangle-3">
             <div class="col-3">
