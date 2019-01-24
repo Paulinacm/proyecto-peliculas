@@ -36,6 +36,13 @@ body {
   }
 }
 
+@media (max-width:1024px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -68,7 +75,7 @@ body {
     letter-spacing: normal;
     color: #ffffff;
   }
-  
+
   .Cuadrado {
     width: 100px;
     height: 133px;
@@ -117,3 +124,10 @@ body {
     transform: rotateY(180deg);
     z-index: 1;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  
