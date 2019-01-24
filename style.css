@@ -65,6 +65,11 @@ body {
     background-color: #f2c94c;
   }
   
+  h6, p {
+  font-size: 14px
+  }
+
+
   .Texto {
     font-family: Roboto;
     font-size: 36px;
@@ -114,14 +119,14 @@ body {
   }
   
   .flip-card-front {
-    background-color: #bbb;
+    background-color: #ffffff;
     color: black;
     z-index: 2;
   }
   
   .flip-card-back {
-    background-color: #2980b9;
-    color: white;
+    background-color: white;
+    color: #b21280;
     transform: rotateY(180deg);
     z-index: 1;
   }
