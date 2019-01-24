@@ -2,9 +2,9 @@ body {
     padding-top: 20px;
 }
 
-.carousel {
+ .carousel {
   width: 100%;
-}
+} 
 
 .slide-box {
   display: flex;
@@ -36,6 +36,13 @@ body {
   }
 }
 
+@media (max-width:1024px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
@@ -48,21 +55,16 @@ body {
     width: 107.5px;
     height: 105px;
   }
-  .Rectangle-2 {
+  .Rectangle-2, .Rectangle-5 {
     background-color: #14c8cc;
   }
   .Rectangle-3 {
     background-color: #b21280;
   }
-  .Rectangle-4 {
+  .Rectangle-4, .Footer{
     background-color: #f2c94c;
   }
-  .Rectangle-5 {
-    background-color: #14c8cc;
-  }
-  .Footer {
-    background-color: #f2c94c;
-  }
+  
   .Texto {
     font-family: FontAwesome5FreeSolid;
     font-size: 36px;
@@ -122,3 +124,10 @@ body {
     transform: rotateY(180deg);
     z-index: 1;
   }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  
