@@ -94,8 +94,21 @@ document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Ima
 document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin9.jpg' class='Cuadrado'>";
 document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin10.jpg' class='Cuadrado'>";
 document.getElementById("pictureGaleryLabel").innerHTML="Assassin's Creed,escenas Película";
-
 });
+//Batman modal galeria imagenes
+document.getElementById("assasinCreed").addEventListener("click",function(){ 
+    document.getElementById("repoGalery").innerHTML ="<input type='image' src='/Imagenes/assasin/assasin3.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin6.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin1.jpeg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin4.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin5.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin2.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin7.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin8.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin9.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin10.jpg' class='Cuadrado'>";
+    document.getElementById("pictureGaleryLabel").innerHTML="Assassin's Creed,escenas Película";
+    });
 
 
 
