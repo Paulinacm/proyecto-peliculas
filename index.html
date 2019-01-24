@@ -39,6 +39,26 @@
       </div>
     </div>
   </div>
+   <!--Modal rgaleria-->
+   <div class="modal fade" id="pictureGalery" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="pictureGaleryLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div id="footerpictureGalery">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- Modal de peliculas top 10-->
   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
@@ -120,13 +140,13 @@
             <div class="carousel-item active">
               <div class="slide-box">
                 <!--Inicio Carta 1-->
-                <div class="flip-card rounded">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                  <div class="box">
+                    <div class="box-in box-front">
                       <input type="image" src="http://subirimagen.me/uploads/20190123093134.jpg" alt="Pikachu Detective"
                         id="imagePikachu" class="Cuadrado">
                     </div>
-                    <div class="flip-card-back">
+                    <div class="box-in box-back">
                       <h6>Pikachu detective</h6>
                       <p>Sitio</p>
                       <p><a href="https://www.youtube.com/watch?v=V31OIBUzGcs" target="_blank">pikachu detective</a></p>
@@ -135,13 +155,13 @@
                 </div>
                 <!--fin carta-->
                 <!--carta 2-->
-                <div class="flip-card">
-                  <div class="flip-card-inner">
-                    <div class="flip-card-front">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                  <div class="box">
+                    <div class="box-in box-front">
                       <input type="image" src="http://subirimagen.me/uploads/20190123093438.png" alt="Lego la pelicula2"
                         id="imageLego" class="Cuadrado">
                     </div>
-                    <div class="flip-card-back">
+                    <div class="box-in box-back">
                       <h6>Lego la pelicula2</h6>
                       <p>Sitio</p>
                       <p><a href="https://www.youtube.com/watch?v=gG_MzMaq7Ng" target="_blank">Lego la pelicula2</a></p>
@@ -578,76 +598,34 @@
                 <div class="slide-box">
                   <!--carta 1 Ralph-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                          <input type="image" src="Imagenes/ralph11.jpeg" class="Cuadrado" alt="Ralph">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="Imagenes/ralph11.jpeg" class="Cuadrado" alt="Ralph" data-toggle="modal" data-target="#pictureGalery" >
+                    <input type="image" id="wifiRalph" src="Imagenes/ralph11.jpeg" data-toggle="modal" data-target="#pictureGalery" class="Cuadrado" alt="Ralph">
                   </div>
                   <!--fin carta-->
                   <!--carta 2-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
+                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
+                      class="Cuadrado">
+                        <input type="image" id="assasinCreed" src="Imagenes/assasin/assassin.jpg" data-toggle="modal" data-target="#pictureGalery" 
                           class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
                   </div>
                   <!--carta 3-->
                   <!--fin carta-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg"
-                          class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg"
+                      class="Cuadrado">
                   </div>
                   <!--carta 4-->
                   <!--fin carta-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg"
-                          class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg"
+                      class="Cuadrado">
                   </div>
                   <!--fin carta-->
                   <!--carta 5-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg"
-                          class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg"
+                      class="Cuadrado">
                   </div>
                   <!--fin carta-->
                 </div>
@@ -656,75 +634,30 @@
                 <div class="slide-box">
                   <!--carta 1-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg"
-                          class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg"
+                      class="Cuadrado">
                   </div>
                   <!--fin carta-->
                   <!--carta 2-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg"
-                          class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg"
+                      class="Cuadrado">
                   </div>
                   <!--carta 3-->
                   <!--fin carta-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="Imagenes/Mario.jpg" class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="Imagenes/Mario.jpg" class="Cuadrado">
                   </div>
                   <!--carta 4-->
                   <!--fin carta-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="Imagenes/Lara.jpg" class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="Imagenes/Lara.jpg" class="Cuadrado">
                   </div>
                   <!--fin carta-->
                   <!--carta 5-->
                   <div class="flip-card">
-                    <div class="flip-card-inner">
-                      <div class="flip-card-front">
-                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg"
-                          class="Cuadrado">
-                      </div>
-                      <div class="flip-card-back">
-                        <h6>Angry birs</h6>
-                        <p>Sitio</p>
-                        <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                      </div>
-                    </div>
+                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg"
+                      class="Cuadrado">
                   </div>
                   <!--fin carta-->
                 </div>

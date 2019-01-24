@@ -66,4 +66,36 @@ document.getElementById("pictureAssasin").addEventListener("click",function(){
     document.getElementById("exampleModalLabel").innerHTML ="Assassin's Creed";
 });
 
+//Wifi ralph modal
+document.getElementById("wifiRalph").addEventListener("click",function(){
+document.getElementById("repoGalery").innerHTML ="<input type='image' src='/Imagenes/ralph/ralph1.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph2.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph3.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph4.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph5.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph6.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph7.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph8.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph9.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph10.jpg' class='Cuadrado'>";
+document.getElementById("pictureGaleryLabel").innerHTML="Ralph,escenas Película";
+
+});
+//Assassin's Creed modal galeria imagenes
+document.getElementById("assasinCreed").addEventListener("click",function(){ 
+document.getElementById("repoGalery").innerHTML ="<input type='image' src='/Imagenes/assasin/assasin3.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin6.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin1.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin4.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin5.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin2.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin7.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin8.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin9.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin10.jpg' class='Cuadrado'>";
+document.getElementById("pictureGaleryLabel").innerHTML="Assassin's Creed,escenas Película";
+
+});
+
+
 
