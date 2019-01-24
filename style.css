@@ -2,9 +2,9 @@ body {
     padding-top: 20px;
 }
 
-.carousel {
+ .carousel {
   width: 100%;
-}
+} 
 
 .slide-box {
   display: flex;
@@ -48,21 +48,16 @@ body {
     width: 107.5px;
     height: 105px;
   }
-  .Rectangle-2 {
+  .Rectangle-2, .Rectangle-5 {
     background-color: #14c8cc;
   }
   .Rectangle-3 {
     background-color: #b21280;
   }
-  .Rectangle-4 {
+  .Rectangle-4, .Footer{
     background-color: #f2c94c;
   }
-  .Rectangle-5 {
-    background-color: #14c8cc;
-  }
-  .Footer {
-    background-color: #f2c94c;
-  }
+  
   .Texto {
     font-family: FontAwesome5FreeSolid;
     font-size: 36px;
@@ -73,6 +68,7 @@ body {
     letter-spacing: normal;
     color: #ffffff;
   }
+  
   .Cuadrado {
     width: 100px;
     height: 133px;
