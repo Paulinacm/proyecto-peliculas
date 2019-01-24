@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,17 +9,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
+<header class="container-fluid">
   <div class="row Rectangle">
-    <div class="col-9"></div>
-    <div class="col-3">
+    <div class="col-12 col-md-6 col-lg-3">
         <input type="text" id="movie" class="rounded round">
         <input type="button" value="Buscar" onclick="find()" data-toggle="modal" data-target="#modalFind">
-    </div> 
+    </div>
   </div>
-</div>
-<!--Modal para busqueda-->
+</header>
+<!--Modal resultado de busqueda-->
 <div class="modal fade" id="modalFind" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -38,7 +37,6 @@
     </div>
   </div>
   </div>
-<!--fin modal busqueda-->
       <!-- Modal de peliculas top 10-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -62,10 +60,14 @@
       </div>
     <p></p>
       <!--Creación de botones para carrousel de bootstrap -->
+<!--fin modal busqueda-->
       <!--Primer carrusel top 10-->
-      <div class="container">
+<section>
+  <div class="container-fluid">
           <div class="row">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="col-12">
+              <a class="Texto">Top 10</a>
+              <div id="carousel" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="slide-box">
@@ -85,14 +87,15 @@
                         <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
                     </div>
                 </div>
-             </div> 
+             </div>
+             </div>
             </div>
           </div>
         </div>
-      <p></p>
+</section>
         <!--fin-->
               <!--Carrusel 2 estreno-->
-      <div class="container">
+      <div class="container-fluid">
           <div class="row Rectangle-2">
             <div class="col-3">
               <a class="Texto">Estrenos</a>
@@ -102,16 +105,15 @@
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                           <div class="slide-box">
-                              <!--carta 1 Angry birds-->
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg" class="Cuadrado">
+                                      <input type="image" src="http://subirimagen.me/uploads/20190123093134.jpg"alt= "Pikachu Detective" id="imagePikachu"class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
-                                    <h6>Angry birs</h6> 
+                                    <h6>Pikachu detective</h6> 
                                     <p>Sitio</p> 
-                                    <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                    <p><a href="https://www.youtube.com/watch?v=V31OIBUzGcs">pikachu detective</a></p>
                                   </div>
                                 </div>
                               </div>
@@ -120,12 +122,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg" class="Cuadrado">
+                                      <input type="image" src="http://subirimagen.me/uploads/20190123093438.png"alt= "Lego la pelicula2" id="imageLego" class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
-                                    <h6>Angry birs</h6> 
+                                    <h6>Lego la pelicula2</h6> 
                                     <p>Sitio</p> 
-                                    <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                    <p><a href="https://www.youtube.com/watch?v=gG_MzMaq7Ng">Lego la pelicula2</a></p>
                                   </div>
                                 </div>
                               </div>
@@ -134,12 +136,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTA4MDA0MjU3MjFeQTJeQWpwZ15BbWU3MDA0MjkwMDc@._V1_SX300.jpg" class="Cuadrado">
+                                      <input type="image" src="http://subirimagen.me/uploads/20190123094600.jpg"alt= "Toy Story4" id="imageToyStory4"class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
-                                    <h6>Angry birs</h6> 
+                                    <h6>Toy Story4</h6> 
                                     <p>Sitio</p> 
-                                    <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                    <p><a href="https://www.youtube.com/watch?v=z0-Ze1o8jQg">Toy Story4</a></p>
                                   </div>
                                 </div>
                               </div>
@@ -148,12 +150,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="https://images-na.ssl-images-amazon.com/images/M/MV5BZWJkMTU5MjUtNGFmOC00NDFmLTk3NGYtMDgzMDY1NmI5NmFiXkEyXkFqcGdeQXVyMzYzNzc1NjY@._V1_SX300.jpg" class="Cuadrado">
+                                      <input type="image" src="http://subirimagen.me/uploads/20190123093950.jpg"alt= "Spiderman" id="imageSpiderman"class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
-                                    <h6>Angry birs</h6> 
+                                    <h6>Spiderman</h6> 
                                     <p>Sitio</p> 
-                                    <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                    <p><a href="https://www.youtube.com/watch?v=KnVCJFS21rM">Spiderman</a></p>
                                   </div>
                                 </div>
                               </div>
@@ -162,12 +164,12 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="https://m.media-amazon.com/images/M/MV5BMjE2NTAyMjUxMl5BMl5BanBnXkFtZTYwOTAwODQ3._V1_SX300.jpg" class="Cuadrado">
+                                      <input type="image" src="http://subirimagen.me/uploads/20190123094308.jpg"alt= "StarWars" id="imageStarWars"class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
-                                    <h6>Angry birs</h6> 
+                                    <h6>Stars Wars</h6> 
                                     <p>Sitio</p> 
-                                    <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                    <p><a href="https://www.youtube.com/watch?v=_tRL1GWeJIs">stars wars</a></p>
                                   </div>
                                 </div>
                               </div>
@@ -176,58 +178,43 @@
                       </div> 
                       <div class="carousel-item">
                           <div class="slide-box">
-                              <!--carta 1-->
+                              <!--carta 6-->
                               <div class="flip-card">
                                   <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg" class="Cuadrado">
+                                        <input type="image" src="http://subirimagen.me/uploads/20190124064323.jpg"alt= "Entrenando a Mi Dragon3" class="Cuadrado">
                                     </div>
                                     <div class="flip-card-back">
-                                      <h6>Angry birs</h6> 
+                                      <h6>Entrenando mi Dragon3</h6> 
                                       <p>Sitio</p> 
-                                      <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                      <p><a href="https://www.youtube.com/watch?v=QlCC9eDdFew">Entrenando mi Dragon3</a></p>
                                     </div>
                                   </div>
                                 </div>
-                              <!--fin carta-->
-                              <!--carta 2-->
+                              <!--fin carta--> <!--carta 7-->
                               <div class="flip-card">
                                   <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg" class="Cuadrado">
+                                        <input type="image" src="http://subirimagen.me/uploads/20190124070411.jpeg" alt= "AvengersEndGame" class="Cuadrado"> 
                                     </div>
                                     <div class="flip-card-back">
-                                      <h6>Angry birs</h6> 
+                                      <h6>AvengersEndGame</h6> 
                                       <p>Sitio</p> 
-                                      <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                      <p><a href="https://www.youtube.com/watch?v=1XrrTJpA3yM">AvengersEndGame</a></p>
                                     </div>
                                   </div>
                                 </div>
-                                <!--carta 3-->
-                              <!--fin carta-->
+                                <!--carta 8-->
+                              
                               <div class="flip-card">
                                   <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <input type="image" src="Imagenes/Mario.jpg" class="Cuadrado">
+                                        <input type="image" src="http://subirimagen.me/uploads/20190124071047.jpg" alt= "Dragon Ball" class="Cuadrado">
                                     </div>
                                     <div class="flip-card-back">
-                                      <h6>Angry birs</h6> 
+                                      <h6>Dragon Ball</h6> 
                                       <p>Sitio</p> 
-                                      <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
-                                    </div>
-                                  </div>
-                                </div>
-                                <!--carta 4-->
-                              <!--fin carta-->
-                              <div class="flip-card">
-                                  <div class="flip-card-inner">
-                                    <div class="flip-card-front">
-                                        <input type="image" src="Imagenes/Lara.jpg" class="Cuadrado">
-                                    </div>
-                                    <div class="flip-card-back">
-                                      <h6>Angry birs</h6> 
-                                      <p>Sitio</p> 
-                                      <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                      <p><a href="https://www.youtube.com/watch?v=dl3w10VVQj8">Dragon Ball</a></p>
                                     </div>
                                   </div>
                                 </div>
@@ -236,12 +223,12 @@
                               <div class="flip-card">
                                   <div class="flip-card-inner">
                                     <div class="flip-card-front">
-                                        <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" class="Cuadrado">
+                                        <input type="image" src="http://subirimagen.me/uploads/20190124071925.jpg" alt= "spiderman Lejos de Casa" class="Cuadrado">
                                     </div>
                                     <div class="flip-card-back">
-                                      <h6>Angry birs</h6> 
+                                      <h6>spiderman Lejos de Casa</h6> 
                                       <p>Sitio</p> 
-                                      <p><a href="https://www.paisdelosjuegos.com.pe/juego/angry-birds.htm">Angry Birs</a></p>
+                                      <p><a href="https://www.youtube.com/watch?v=to-WgxeQUAg">spiderman Lejos de Casa</a></p>
                                     </div>
                                   </div>
                                 </div>
@@ -251,18 +238,16 @@
                    </div> 
                   </div>
             </div>
-            
           </div>
         </div>
       <p></p>
         <!--fin-->
                <!--Carrosel 3 favoritos -->
-      <div class="container">
-          <div class="row Rectangle-3">
-            <div class="col-3">
+<section>
+  <div class="container-fluid">
+    <div class="row Rectangle-3">
+      <div class="col-12">
               <a class="Texto">Favoritos</a>
-            </div>
-            <div class="col-9">
                 <div id="carousel3" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -271,7 +256,7 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="Imagenes/halo.jpg" class="Cuadrado">
+                                      <input type="image" src="Imagenes/halo.jpg" alt="halo" class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
                                     <h6>Halo</h6> 
@@ -389,18 +374,16 @@
                    </div> 
                   </div>
             </div>
-            
           </div>
         </div>
-      <p></p>
+</section>
         <!--fin-->
-               <!--Carrosel 4 Juegos -->
-      <div class="container">
+<!--Carrusel 4 Juegos -->
+<section>  
+      <div class="container-fluid">
           <div class="row Rectangle-4">
-            <div class="col-3">
+            <div class="col-12">
               <a class="Texto">Juegos</a>
-            </div>
-            <div class="col-9">
                 <div id="carousel4" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -497,11 +480,10 @@
                       </div>
                    </div> 
                   </div>
+                </div>
             </div>
-            
           </div>
-        </div>
-      <p></p>
+</section>
         <!--fin-->
                <!--Carrosel 5 Galería de imágenes-->
       <div class="container">
@@ -663,16 +645,15 @@
                    </div> 
                   </div>
             </div>
-            
           </div>
-        </div>
-      <p></p>
+          </div>
+</section>
         <!--fin-->
         <footer class="page-footer font-small">
             <div class="titulo Footer">
-              <div class="container">
+              <div class="container-fluid">
                 <div class="row py-4 d-flex align-items-center">
-                  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                  <div class="col-12">
                         <div class="footer-copyright text-center py-3">© 2019 Copyright:
                                 <a href="https://github.com/MarceArratia"> FunKids</a>
                               </div>
