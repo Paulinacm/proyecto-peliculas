@@ -1,6 +1,6 @@
 function searchMovie(title,modal){// (title,1)se ocupa en
     let key = "e23f5eb4";
-    let url = "http://www.omdbapi.com";
+    let url = "https://cors-anywhere.herokuapp.com/http://www.omdbapi.com";
     let urlFetch = url+"/?apikey=" +key+"&t="+ title+"&type=movie";//url que se encuentra en OMDb, key que es la clave de acceso, $s+title que sera parametro de busqueda
     fetch(urlFetch)//fetch dice donde está el archivo
     .then(res => res.json() )//promesa en res, implementa el JSON
