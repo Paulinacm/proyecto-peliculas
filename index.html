@@ -8,17 +8,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-<div class="container">
+<header class="container-fluid">
   <div class="row Rectangle">
-    <div class="col-9"></div>
-    <div class="col-3">
+    <div class="col-12 col-md-6 col-lg-3">
         <input type="text" id="movie" class="rounded round">
         <input type="button" value="Buscar" onclick="find()" data-toggle="modal" data-target="#modalFind">
-    </div> 
+    </div>
   </div>
-</div>
-<!--Modal para busqueda-->
+</header>
+<!--Modal resultado de busqueda-->
 <div class="modal fade" id="modalFind" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -38,7 +36,6 @@
     </div>
   </div>
   </div>
-<!--fin modal busqueda-->
       <!-- Modal de peliculas top 10-->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -62,10 +59,14 @@
       </div>
     <p></p>
       <!--Creación de botones para carrousel de bootstrap -->
+<!--fin modal busqueda-->
       <!--Primer carrusel top 10-->
-      <div class="container">
+<section>
+  <div class="container-fluid">
           <div class="row">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div class="col-12">
+              <a class="Texto">Top 10</a>
+              <div id="carousel" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
                     <div class="slide-box">
@@ -85,14 +86,15 @@
                         <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg" id="pictureAssasin" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
                     </div>
                 </div>
-             </div> 
+             </div>
+             </div>
             </div>
           </div>
         </div>
-      <p></p>
+</section>
         <!--fin-->
               <!--Carrusel 2 estreno-->
-      <div class="container">
+      <div class="container-fluid">
           <div class="row Rectangle-2">
             <div class="col-3">
               <a class="Texto">Estrenos</a>
@@ -235,18 +237,16 @@
                    </div> 
                   </div>
             </div>
-            
           </div>
         </div>
       <p></p>
         <!--fin-->
                <!--Carrosel 3 favoritos -->
-      <div class="container">
-          <div class="row Rectangle-3">
-            <div class="col-3">
+<section>
+  <div class="container-fluid">
+    <div class="row Rectangle-3">
+      <div class="col-12">
               <a class="Texto">Favoritos</a>
-            </div>
-            <div class="col-9">
                 <div id="carousel3" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -255,7 +255,7 @@
                             <div class="flip-card">
                                 <div class="flip-card-inner">
                                   <div class="flip-card-front">
-                                      <input type="image" src="Imagenes/halo.jpg" class="Cuadrado">
+                                      <input type="image" src="Imagenes/halo.jpg" alt="halo" class="Cuadrado">
                                   </div>
                                   <div class="flip-card-back">
                                     <h6>Halo</h6> 
@@ -373,18 +373,16 @@
                    </div> 
                   </div>
             </div>
-            
           </div>
         </div>
-      <p></p>
+</section>
         <!--fin-->
-               <!--Carrosel 4 Juegos -->
-      <div class="container">
+<!--Carrusel 4 Juegos -->
+<section>  
+      <div class="container-fluid">
           <div class="row Rectangle-4">
-            <div class="col-3">
+            <div class="col-12">
               <a class="Texto">Juegos</a>
-            </div>
-            <div class="col-9">
                 <div id="carousel4" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -481,19 +479,17 @@
                       </div>
                    </div> 
                   </div>
+                </div>
             </div>
-            
           </div>
-        </div>
-      <p></p>
+</section>
         <!--fin-->
-               <!--Carrosel 5 -->
-      <div class="container">
-          <div class="row Rectangle-5">
-            <div class="col-3">
+<!--Carrosel 5 -->
+<section>
+  <div class="container-fluid">
+    <div class="row Rectangle-5">
+      <div class="col-12">
               <a class="Texto">Otros Recursos</a>
-            </div>
-            <div class="col-9">
                 <div id="carousel5" class="carousel slide" data-ride="carousel">
                     <div class="carousel-inner">
                       <div class="carousel-item active">
@@ -647,16 +643,15 @@
                    </div> 
                   </div>
             </div>
-            
           </div>
-        </div>
-      <p></p>
+          </div>
+</section>
         <!--fin-->
         <footer class="page-footer font-small">
             <div class="titulo Footer">
-              <div class="container">
+              <div class="container-fluid">
                 <div class="row py-4 d-flex align-items-center">
-                  <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                  <div class="col-12">
                         <div class="footer-copyright text-center py-3">© 2019 Copyright:
                                 <a href="https://github.com/MarceArratia"> FunKids</a>
                               </div>
