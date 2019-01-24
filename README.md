@@ -1,18 +1,10 @@
-# Proyecto-Películas
+# Proyecto Hackaton Películas
 
   
 
-## Fun Kids
-
-
-Figma
-https://www.figma.com/file/gcx6ag7IPJTE54cNkbucIMNL/Hackaton?node-id=1%3A1043
-
-Zeplin
-https://app.zeplin.io/project/5c4884e635c1a337cdb26f84/dashboard
-
-
-
+## Movie Gamer WebApp.
+![
+](https://lh3.googleusercontent.com/o0IUkqdjZiXhhQwSj37mT8jq305KfCcK99cB9gbHHIvY_I-ZZzFs30Bob5KRsI4AlVq36VlUTQFQ "imagen")
  
 ## Contexto
 
@@ -58,13 +50,9 @@ El inicio de este trabajo se desarrolla en el contexto del Bootcamp de [Laborato
 
 - Un reporte con las conclusiones clave respecto al trabajo con los usuarios y los patrones de interacción.
 
-  
+ 
 
-  
-
-  
-
-- Una página web que permita visualizar la data, filtrarla, ordenarla y hacer algún cálculo agregado.
+- Una página web que permita al usuario encontrar información sobre películas relaiconadas con videojuegos.
 
   
 ****Status:**** Finalizado.
@@ -90,8 +78,8 @@ Comenzamos con una búsqueda online para conocer las aplicaciones disponibles qu
   
 A partir de esta revisión y literatura del tema (Ver [link](http://www.torresburriel.com/weblog/2016/08/18/diseno-de-interfaces-para-ninos/)) encontramos información necesaria para tomar decisiones de diseño:
 
-**Diseño Visual:** linea gráfica simple, sin mucho texto, con botones grandes.
-**Color:** 
+**Diseño Visual:** linea gráfica simple, sin mucho texto, con botones accesibles.
+**Color:** la paleta de colores de las páginas para niños utilizan colores fuertes y llamativos. 
 
 
 ### Testeo a usuarios
@@ -103,10 +91,11 @@ Posteriormente realizamos una encuesta online mediante [SurveyMonkey](https://es
 
 Recibimos 7 encuestas:
 
- - Películas más mencionadas Ralph, Star wars, Angry birds, Pokemon, Minecraft, Resident evil varias versiones, Lara croft, Pixeles, Assasin Creed.
- - Información relevante: buenas imagenes del juego, fecha de estreno de la película, personajes y resumen, información sobre personajes favoritos, del juego como pasar etapas.
+ - Películas más mencionadas: Ralph, Star wars, Angry birds, Pokemon, Minecraft, Resident evil varias versiones, Lara croft, Pixeles, Assasin Creed.
+ - Información relevante: buenas imágenes del juego, fecha de estreno de la película, personajes y resumen, información sobre personajes favoritos, del juego como pasar etapas.
    datos curiosos del personaje.
-   Decidimos acotar el grupo de 5 a 10, debido a que a partir de los 11 años comienzan la preadolescencia, lo que los llevaría a una búsqueda de nuevas páginas con las que se sientan identificados, más cercana a esta nueva etapa que están viviendo.
+
+A partir de los decidimos acotar el grupo de 5 a 10, debido a que uno de nuestras encuestas fue respondida por un niños de 13 y no fue de interés para él.  Lo cual es consistente con la etapa del desarrollo en que a partir de los 11 años comienzan la preadolescencia, lo que los llevaría a una búsqueda de nuevas páginas con las que se sientan identificados, más cercana a esta nueva etapa que están viviendo.
 
 ********
 
@@ -267,7 +256,7 @@ A la imagen de fondo se le aplico un mayor desenfoque para que la mirada del usu
 
 
 
-Creamos un storyboard para describir la experiencia de un usuario de la aplicación Fun Kids. Mediante esta estrategia se puede explorar el producto en un contexto amplio, como si fuera parte de una narrativa mayor. Es una forma económica y efectiva de capturar, relacionar y explorar la aplicación en el mundo real.
+Creamos un storyboard para describir la experiencia de un usuario de la aplicación Movie Gamer. Mediante esta estrategia se puede explorar el producto en un contexto amplio, como si fuera parte de una narrativa mayor. Es una forma económica y efectiva de capturar, relacionar y explorar la aplicación en el mundo real.
 
 insertar aqui storyboard
 
@@ -279,30 +268,26 @@ insertar aqui storyboard
 
 ### Paleta de Colores
 
+Se utilizó la herramienta de [Adobe](https://color.adobe.com/es/cloud/aHR0cHM6Ly9jYy1hcGktYXNzZXRzLmFkb2JlLmlv/library/3778c78b-ceda-4452-8f90-e0402fcdc1cf/theme/9683b2e8-16be-4ddd-8977-fa488eb76792/) para crear una triada con la paleta de colores para la página, considerando los lineamientos aprendidos en la etapa de investigación.
 
-Elegimos estos colores porque están todos asociados a Pokemon Go, de tal manera que el usuario al acceder a la página inmediatamente entienda que se trata de una aplicación asociada al juego.
-
+![enter image description here](https://lh3.googleusercontent.com/ITDops7gAr8leaM9wV9KwzvkoOPmdED1OZbqMyYffnQgzVkF-WxD91xD47nYU_wYYxKq99SPOXcB "paleta de colores")
 
 ### Tipografía
 
-  
-
-La tipografía elegida es *Sans-serif* que corresponde a un estilo moderno, debido a que la página que está orientada principalmente a un público jóven.
-
-Se utilizó tipografía [Roboto.](https://fonts.google.com/specimen/Roboto)
+  Se utilizó tipografía [Roboto.](https://fonts.google.com/specimen/Roboto) *Sans-serif* que corresponde a un estilo moderno, debido a que la página que está orientada principalmente a un público jóven.
 
 
 ### Iconos & Ilustraciones
 
   Icono: se utilizó [Crack Man Font Family.](https://www.dafont.com/crackman.font)
 
-  
+  ![font logo](https://lh3.googleusercontent.com/HIXp8nU6UCWXa7szydilZwvUrtABqVCtZiBf3A2tgMB8CVHnWNka006NZ8ggvHGlDeLmGGdKGnF8 "font logo")
 
 ### Nombre
 
-Fun Kids
+Movie Gamer
 
-
+![enter image description here](https://lh3.googleusercontent.com/7RxNUDMgL_WZJyE2xteC4FU6zJ-4p35qNFYlDZ7VZycio03sGxi4Fw-WiYpluks0DlZ8Uppo1R8x "Logo")
 ## Etapa 5 - El Diseño final
 
   
@@ -323,16 +308,14 @@ Para realizar el diseño final, usamos el programa [Zeplin](https://app.zeplin.i
 ****Modal****
 
   
-
 ****Buscador****
 
 
-  
-
+ 
 
 
 ### Aspectos para incorporar en nuevas versiones
 
-- Creacion de las tarjetas informativas de los pokemones, ya sea en formato "Modal" o "Flip" de cada tarjeta.
+- 
 
-- Incorporación de un buscador para que el pokemon pueda ser buscado por nombre o tipo.
+- 
