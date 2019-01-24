@@ -80,7 +80,10 @@ body {
     letter-spacing: normal;
     color: #ffffff;
   }
- 
+ a:not([href]):not([tabindex]) {
+   color: white;
+   text-decoration: none;
+ }
 
   .Cuadrado {
     width: 100px;
