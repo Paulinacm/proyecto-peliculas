@@ -1,28 +1,13 @@
-# Proyecto-Películas
+
+# Proyecto Hackaton Películas
 
   
 
-## Fun Kids
-
-
-Figma
-https://www.figma.com/file/gcx6ag7IPJTE54cNkbucIMNL/Hackaton?node-id=1%3A1043
-
-Zeplin
-https://app.zeplin.io/project/5c4884e635c1a337cdb26f84/dashboard
-
-
-
+## Movie Gamer WebApp.
+![
+](https://lh3.googleusercontent.com/o0IUkqdjZiXhhQwSj37mT8jq305KfCcK99cB9gbHHIvY_I-ZZzFs30Bob5KRsI4AlVq36VlUTQFQ "imagen")
  
 ## Contexto
-
-  
-
-  
-
-  
-
-  
 
 El inicio de este trabajo se desarrolla en el contexto del Bootcamp de [Laboratoria](https://www.laboratoria.la/). Desafío Hackaton final del Common Core.
 
@@ -58,13 +43,9 @@ El inicio de este trabajo se desarrolla en el contexto del Bootcamp de [Laborato
 
 - Un reporte con las conclusiones clave respecto al trabajo con los usuarios y los patrones de interacción.
 
-  
+ 
 
-  
-
-  
-
-- Una página web que permita visualizar la data, filtrarla, ordenarla y hacer algún cálculo agregado.
+- Una página web que permita al usuario encontrar información sobre películas relaiconadas con videojuegos.
 
   
 ****Status:**** Finalizado.
@@ -90,8 +71,8 @@ Comenzamos con una búsqueda online para conocer las aplicaciones disponibles qu
   
 A partir de esta revisión y literatura del tema (Ver [link](http://www.torresburriel.com/weblog/2016/08/18/diseno-de-interfaces-para-ninos/)) encontramos información necesaria para tomar decisiones de diseño:
 
-**Diseño Visual:** linea gráfica simple, sin mucho texto, con botones grandes.
-**Color:** 
+**Diseño Visual:** linea gráfica simple, sin mucho texto, con botones accesibles.
+**Color:** la paleta de colores de las páginas para niños utilizan colores fuertes y llamativos. 
 
 
 ### Testeo a usuarios
@@ -103,20 +84,19 @@ Posteriormente realizamos una encuesta online mediante [SurveyMonkey](https://es
 
 Recibimos 7 encuestas:
 
- - Películas más mencionadas Ralph, Star wars, Angry birds, Pokemon, Minecraft, Resident evil varias versiones, Lara croft, Pixeles, Assasin Creed.
- - Información relevante: buenas imagenes del juego, fecha de estreno de la película, personajes y resumen, información sobre personajes favoritos, del juego como pasar etapas.
+ - Películas más mencionadas: Ralph, Star wars, Angry birds, Pokemon, Minecraft, Resident evil varias versiones, Lara croft, Pixeles, Assasin Creed.
+ - Información relevante: buenas imágenes del juego, fecha de estreno de la película, personajes y resumen, información sobre personajes favoritos, del juego como pasar etapas.
    datos curiosos del personaje.
-   Decidimos acotar el grupo de 5 a 10, debido a que a partir de los 11 años comienzan la preadolescencia, lo que los llevaría a una búsqueda de nuevas páginas con las que se sientan identificados, más cercana a esta nueva etapa que están viviendo.
+
+A partir de los decidimos acotar el grupo de 5 a 10, debido a que uno de nuestras encuestas fue respondida por un niños de 13 y no fue de interés para él.  Lo cual es consistente con la etapa del desarrollo en que a partir de los 11 años comienzan la preadolescencia, lo que los llevaría a una búsqueda de nuevas páginas con las que se sientan identificados, más cercana a esta nueva etapa que están viviendo.
 
 ********
-
-USER PERSONA
-
 
 
 ## Historias de Usuario
 
 ### Definitions of done
+  
   
 
 Aqui desarrollamos las historias de usuario de nuestro producto, acompañadas de sus criterios de aceptación.
@@ -145,12 +125,6 @@ Criterios de Aceptación:
 - [ ] Al seleccionar la película elegida indique información adicional a otros recursos, como trailers para visualizar, fotografías, o imágenes para colorear.
 
   
-#### User Flowchart
-
-Luego de definir nuestro usuario, realizamos el flujo que realizaría el usuario al utilizar la aplicación. Así creamos un prototipo del flujo básico del usuario, búsqueda de películas, selección de un personaje, visitar los últimos estrenos y visitar vínculos externos. 
-
-  
-Flujo de Usuario
 
   
 ## Stage 2 - Prototipados
@@ -160,33 +134,31 @@ Flujo de Usuario
 
 Realizamos el prototipado de baja definición, aquí comenzamos ideando e iterando sobre cómo debería verse la aplicación, y qué elementos debería contener para llegar a nuestro usuario.
 
-Prototipo de baja fidelidad utilizando Figma.
-
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgcx6ag7IPJTE54cNkbucIMNL%2FHackaton%3Fnode-id%3D1%253A406" allowfullscreen></iframe>
+Prototipo de baja fidelidad utilizando Figma (Ver [aquí](https://www.figma.com/file/gcx6ag7IPJTE54cNkbucIMNL/Hackaton?node-id=0:1)).
 
 
-Este prototipo fue iterado en el mismo equipo previo al trabajo en el prototipo de alta definición para saber los componentes, tamaños, estilos y ubicaciones.  A partir del paso previo se realizó el trabajo sobre el prototipo de alta fidelidad utilizando Figma.
+Este prototipo fue iterado en el mismo equipo previo al trabajo en el prototipo de alta definición para saber los componentes, tamaños, estilos y ubicaciones.  A partir del paso previo se realizó el trabajo sobre el prototipo de alta fidelidad utilizando Figma (Ver [aquí)](https://www.figma.com/file/gcx6ag7IPJTE54cNkbucIMNL/Hackaton?node-id=1:1043).
 
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgcx6ag7IPJTE54cNkbucIMNL%2FHackaton%3Fnode-id%3D1%253A1043" allowfullscreen></iframe>
+También disponible en su versión Celular Android ([Link](https://www.figma.com/file/gcx6ag7IPJTE54cNkbucIMNL/Hackaton?node-id=1:936)) y Tablet ([Link](https://www.figma.com/file/gcx6ag7IPJTE54cNkbucIMNL/Hackaton?node-id=63:0)).
 
 
-Este prototipo fue presentado frente a una comisión para presentar la idea y la solución planteada para resolver la misma.  Donde se propuso la posibilidad de que en vez de botones para moverse hacia el lado fuera mediante touch, ya que la pagina sería utilizada principalmente desde dispositivos tablet y celulares, debido al grupo etáreo al cual va dirigido.
+**Presentación intermedia**
+Este prototipo fue presentado frente a una comisión para presentar la idea y la solución planteada para resolver la misma.  Donde se realizaron las siguientes propuestas a incluir o modificar a la propuesta:
 
-Como el público objetivo de la aplicación web niños pequeños, es que nos enfocamos en la usabilidad de la aplicación en dispositivos celular y tablet.
+ - Se nos planteó la posibilidad de incluir un título o información adicional sobre el header para explicitar su uso.
+ - Que la tipografia utilizada no sean más de dos en todo el sitio.
+ - Asegurarnos que la aplicación sea responsive especialmente para tablet y celular, debido al grupo al que va dirigida la App.
+ - En términos de presentación que sea una historia completa y tenga un cierre.
+ - Ver la posibilidad de que en vez de botones para moverse hacia los lados, que esto sea touch, ya que la pagina sería utilizada principalmente desde dispositivos tablet y celulares.
 
-Versión Celular Android
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgcx6ag7IPJTE54cNkbucIMNL%2FHackaton%3Fnode-id%3D63%253A2" allowfullscreen></iframe> 
 
-Versión Tablet
-<iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgcx6ag7IPJTE54cNkbucIMNL%2FHackaton%3Fnode-id%3D63%253A0" allowfullscreen></iframe>
 
 
 ## Planificación
 
 
 Realizamos una planificación al comienzo del proyecto y volvimos a él cada dos o tres días. Utilizamos algunas herramientas digitales de ayuda como [Trello](https://trello.com/b/arOhcfuJ/planicficaci%C3%B3n-22-01-24-01).
-
-Y analógicamente en el tablero proporcionado en Laboratoria.
+![enter image description here](https://lh3.googleusercontent.com/itivxwdAw05OmnHk3hmi9rYrskMjBAIl6j8kOr5Yrhp96cKN2KmgAuIYfECWg_S7fjjWVzUab7Rg "4")
 
 
 ## Stage 3 - Testeos con usuarios
@@ -196,63 +168,15 @@ Y analógicamente en el tablero proporcionado en Laboratoria.
 
 Describimos los parámetros que analizamos al realizar una evaluación heurística para identificar problemas de usabilidad en nuestra plataforma digital (Leer más sobre el tema [aquí](https://blog.ida.cl/experiencia-de-usuario/que-es-evaluacion-heuristica/)) en especial considerando el grupo de edad al que va dirigida la aplicación web (Leer más sobre el tema [aquí](https://www.nngroup.com/articles/childrens-websites-usability-issues/)).
 
-A partir de est
+A partir de este test es posible identificar:
 
 
-****Momentos de testeo con usuarios****
 
- 
-Realizamos testeos en diferentes momentos del proyecto:
-
-1) el primero, ya descrito, ocurrió inmediatamente tras comenzar el desafío, entrevistando a tres compañeras, respecto a la información más relevante de los otorgados por la data, a partir de esta información pudimos definir al usuario de la aplicación.
-
-2) el segundo testeo, también mencionado previamente, corresponde al momento de compartir el prototipo de baja fidelidad entre compañeras, de modo de compartir ideas y resolver dudas iniciales. A partir de este proceso, decidimos enfocarnos
-
-3) testeo on usuarios externos. Se realizó 1 entrevistas con usuarios para testear el demo de la aplicación. Se les indicó una tarea a realizar interactuando con el prototipo y luego una pequeña entrevista para recopilar información.
-
-
-La tarea otorgada al usuario fue la siguiente:
-
-> Imagina que Necesitas conocer las características de cierto Pokémon de la Región de Kanto. Sabes que el Pokémon es de tipo Grass y su
 
 
  
 
-****Entrevistas****
 
-Finalmente, se les hicieron algunas preguntas acerca de su satisfacción, usabilidad y utilidad (cómo fue la experiencia, que cambiarían, sacarían, mejorarían).
-
-  
-Estas fueron algunas de las respuestas que usamos para ir mejorando el prototipo:
-
-  
-
-- Usuarios Camila y Manuel: Pude Encontrar el Pokémon, pero no me había dado cuenta que uno podía bajar y ver un listado de Pokémon, es tan grande la imagen del inicio que solo se ve ella y el menú de filtrar.
-
-  
-
-  
-
-- Usuarios Daniel y Carla: Se ven muy grandes los Pokemones en pantalla escritorio y pienso que para ir cargando mas Pokemones con el boton "Cargar más" seria muy tedioso ya que solo va mostrando de seis en seis.
-
-
-- Usuario Camila: La pagina no indica en ningún lado que los pokemones son de la Region de Kanto
-
-- Usuario Carla: La portada se me hace muy simple solo tiene el logo Pokemón y una imagen de fondo. Quizás podrían colocar una imagen de algún Pokemon.
-
-A partir del testeo previo se decidieron realizar algunas modificaciones al prototipo inicial:
-
-  
-1. Creación de una portada personalizada para la aplicación.
-
-
-2. Reducción del tamaño de la portada y así hacer entender al usuario que abajo hay mas información y que no solo se trata de una portada y un menú de filtrado.
-
-
-
-  
-
-A la imagen de fondo se le aplico un mayor desenfoque para que la mirada del usuario se centre en el logo. Se creó la imagen de "KANTO" simulando el logo principal y añadimos un Pokémon para llamar la atención y una imagen de césped para simular que el Pokémon y el logo estuvieran en un plano principal.
 
  
 
@@ -262,77 +186,53 @@ A la imagen de fondo se le aplico un mayor desenfoque para que la mirada del usu
 5. Aumentamos la cantidad de Pokemones visibles de 3 a 6 por fila en el tamaño de escritorio.
 
   
-
-### Storyboard  —  Usando la App
-
-
-
-Creamos un storyboard para describir la experiencia de un usuario de la aplicación Fun Kids. Mediante esta estrategia se puede explorar el producto en un contexto amplio, como si fuera parte de una narrativa mayor. Es una forma económica y efectiva de capturar, relacionar y explorar la aplicación en el mundo real.
-
-insertar aqui storyboard
-
-  
-
-  
-
   
 
 ### Paleta de Colores
 
+Se utilizó la herramienta de [Adobe](https://color.adobe.com/es/cloud/aHR0cHM6Ly9jYy1hcGktYXNzZXRzLmFkb2JlLmlv/library/3778c78b-ceda-4452-8f90-e0402fcdc1cf/theme/9683b2e8-16be-4ddd-8977-fa488eb76792/) para crear una triada con la paleta de colores para la página, considerando los lineamientos aprendidos en la etapa de investigación.
 
-Elegimos estos colores porque están todos asociados a Pokemon Go, de tal manera que el usuario al acceder a la página inmediatamente entienda que se trata de una aplicación asociada al juego.
-
+![enter image description here](https://lh3.googleusercontent.com/ITDops7gAr8leaM9wV9KwzvkoOPmdED1OZbqMyYffnQgzVkF-WxD91xD47nYU_wYYxKq99SPOXcB "paleta de colores")
 
 ### Tipografía
 
-  
-
-La tipografía elegida es *Sans-serif* que corresponde a un estilo moderno, debido a que la página que está orientada principalmente a un público jóven.
-
-Se utilizó tipografía [Roboto.](https://fonts.google.com/specimen/Roboto)
+  Se utilizó tipografía [Roboto.](https://fonts.google.com/specimen/Roboto) *Sans-serif* que corresponde a un estilo moderno, debido a que la página que está orientada principalmente a un público jóven.
 
 
 ### Iconos & Ilustraciones
 
-  Icono: se utilizó [Crack Man Font Family.](https://www.dafont.com/crackman.font)
+  Icono: se utilizó [Crack Man Font Family.](https://www.dafont.com/crackman.font) debido a que 
 
-  
+  ![font logo](https://lh3.googleusercontent.com/HIXp8nU6UCWXa7szydilZwvUrtABqVCtZiBf3A2tgMB8CVHnWNka006NZ8ggvHGlDeLmGGdKGnF8 "font logo")
 
 ### Nombre
 
-Fun Kids
+Se definió como nombre de la Web App como "Movie Gamer", ya que asocia las dos palabras que definen a nuestro usuario objetivo: una página de información de películas para gamers (jugadores en inglés).  El erizo que acompaña el logo, tiene que ver con ser una mascota de la página, de modo que acompañe a los visitantes durante el recorrido del sitio, aunque en esta etapa solo se implementó en el logo de la marca.
 
-
+![enter image description here](https://lh3.googleusercontent.com/7RxNUDMgL_WZJyE2xteC4FU6zJ-4p35qNFYlDZ7VZycio03sGxi4Fw-WiYpluks0DlZ8Uppo1R8x "Logo")
 ## Etapa 5 - El Diseño final
 
   
-La meta del la aplicación web es crear un proceso rápido de resolución de búsqueda de un pokemon. La versión final esta disponible en versión Demo.
+La meta del la aplicación web fue que el usuario pudiera tener en un solo lugar información últil acerca de películas relaiconadas con videojuegos. La versión final esta disponible en versión [Demo aquí](https://marcearratia.github.io/proyecto-peliculas/). Para realizar el diseño final, usamos el programa [Zeplin](https://app.zeplin.io/project/5c4884e635c1a337cdb26f84/dashboard) para pasar los elementos del prototipado a código HTML, CSS y JS.
 
 
+#### Pantalla Principal
 
-Para realizar el diseño final, usamos el programa [Zeplin](https://app.zeplin.io/project/5c4884e635c1a337cdb26f84/dashboard) pasar los elementos del prototipado a código HTML, CSS y JS.
+![enter image description here](https://lh3.googleusercontent.com/XK7bhQOeIEbtci80ZuDGS0rM5hVV1eyuWOHpufKOiSpUNyEjcdwHw7KEOtFuYWCKQ0sjn5u_J7D- "pantalla ppal")
 
+#### Sección búsqueda
+![enter image description here](https://lh3.googleusercontent.com/DrNvS6IWIQvMdpjRHuBOOn7DM2ZeyqlLqXMw0kSeAWDz-D--JjUzahro1GjzZ6j6EBsctEHR1Cf7 "busqueda")
+#### Secciones separadas por temas
+![enter image description here](https://lh3.googleusercontent.com/jHvX5pSFQ1IPdxI6xU4fEAc09gfheEMfv767SnClrDC0wg8kEM0Q1MHE8G2JQ1wuGRGEQ5OpvcYq "2")
+#### Modal
+![enter image description here](https://lh3.googleusercontent.com/MV6YwIfqsbcWQfUtLk5PEm-rKN1d7u6c5Uxg5TPUSYg146JalDlHnarSvvaIZ1aTCzbzAtmwl9KC "1")
+![enter image description here](https://lh3.googleusercontent.com/bo4hiX5eM8rGf6RH_KIo6A00A_tScCrnwBlmqmQCcmxdus5XqHerKr3ARtawOXIj-s7cyDIz628Z "1")
+### AUTORÍA
 
-****Pantalla inicio****
+-   Marcela Arratia: FrontEnd  
+-   Blanca Carrasco: FrontEnd
+- Paulina Contreras: UX Designer
+    
 
-  
-****Carrusel****
-
-  
-
-****Modal****
-
-  
-
-****Buscador****
-
-
-  
-
-
-
-### Aspectos para incorporar en nuevas versiones
-
-- Creacion de las tarjetas informativas de los pokemones, ya sea en formato "Modal" o "Flip" de cada tarjeta.
-
-- Incorporación de un buscador para que el pokemon pueda ser buscado por nombre o tipo.
+ESTUDIANTES LABORATORIA, 7ma. Generación.  
+Santiago de Chile, enero de 2019.

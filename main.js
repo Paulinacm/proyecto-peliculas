@@ -123,3 +123,29 @@ document.getElementById("mortalModal").addEventListener("click",function(){
     document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/personajes.jpg' class='Cuadrado'>";  
     document.getElementById("pictureGaleryLabel").innerHTML="Mortal Kombat,escenas Película";
 });
+
+/* Cambios Paulina 
+replicar modificando container para nuevo container de slider
+*/
+var slider = tns({
+    container: '.slider',
+    items: 2,
+        edgePadding: 20,
+        gutter: 20,
+        controlsText: ['<i class="fas fa-angle-left"></i>', '<i class="fas fa-angle-right">'],
+        nav:false,
+        loop:false,
+    responsive: {
+        640: {
+            items: 3
+        },
+        700: {
+            items: 4
+        },
+        900: {
+            items: 6
+        }
+    }
+});
+
+/* Cambios Paulina */

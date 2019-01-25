@@ -7,15 +7,31 @@
   <title>Hackaton</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
     crossorigin="anonymous">
+  <!-- Cambio Paulina
+    https://github.com/ganlanyuan/tiny-slider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/tiny-slider.css">
+  <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Questrial" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+    crossorigin="anonymous">
+  <!-- /Cambio Paulina -->
+
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header class="container-fluid">
-    <div class="row Rectangle">
-      <div class="col-12 col-md-6 col-lg-3">
-        <input type="text" id="movie" class="rounded round">
-        <input type="button" value="Buscar" onclick="find()" data-toggle="modal" data-target="#modalFind">
+  <header class="menu-principal container-fluid justify-content-between">
+    <div class="row">
+      <div class="logo col-6 col-md-2">
+        <img src="Imagenes/logo.png" alt="Movir Gamer" class="w-100">
+      </div>
+      <nav class="nav col-6 col-md-5 justify-content-center align-items-center">
+        <a class="nav-link " href="#"><i class="fas fa-gamepad"></i> Juegos</a>
+        <a class="nav-link" href="#"><i class="fas fa-images"></i> Galerías</a>
+      </nav>
+      <div class="form-inline col-12 col-md-5 justify-content-center align-items-center pt-2 pb-2">
+        <input class="form-control col-8" type="search" id="movie" class="rounded round" placeholder="Search"
+          aria-label="Search">
+        <button class="btn btn-light col-4" type="button" onclick="find()" data-toggle="modal" data-target="#modalFind">Buscar</button>
       </div>
     </div>
   </header>
@@ -87,13 +103,16 @@
   <!--Primer carrusel top 10-->
   <section>
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
+      <div class="row mt-5 mb-5">
+        <div class="col-12 col-md-2 d-flex align-items-center">
+          <h1>Los más vistos</h1>
+        </div>
+        <div class="col-12 col-md-10 d-flex align-items-center">
           <a class="Texto">Top 10</a>
           <div id="carousel" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <div class="slide-box">
+                <div class="slide-box slider">
                   <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTY3MjU0NDA0OF5BMl5BanBnXkFtZTgwNTc0MTU3OTE@._V1_SX300.jpg"
                     id="pictureAngry" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
                   <input type="image" src="https://m.media-amazon.com/images/M/MV5BN2Y2MTljNjMtMDRlNi00ZWNhLThmMWItYTlmZjYyZDk4NzYxXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg"
@@ -107,13 +126,13 @@
                 </div>
               </div>
               <div class="carousel-item">
-                <div class="slide-box">
+                <div class="slide-box slider">
                   <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg"
                     id="picturePokemon" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
                   <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg"
                     id="picturePixels" data-toggle="modal" data-target="#exampleModal" class="rounded-circle Ellipse">
                   <input type="image" src="Imagenes/bros.jpeg" id="pictureMario" data-toggle="modal" data-target="#exampleModal"
-                  class="rounded-circle Ellipse">
+                    class="rounded-circle Ellipse">
                   <input type="image" src="Imagenes/Lara.jpg" id="pictureLara" data-toggle="modal" data-target="#exampleModal"
                     class="rounded-circle Ellipse">
                   <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg"
@@ -129,13 +148,13 @@
   <!--fin-->
   <!--Carrusel 2 estreno-->
   <div class="container-fluid">
-    <div class="row Rectangle-2">
-      <div class="col-3 col align-self-center">
+    <div class="row Rectangle-2 mb-4">
+      <div class="col-12 col-md-2 d-flex align-items-center">
         <div class="Texto">
-          <a class="Texto">Estrenos</a>
+          <h2 class="text-white mt-sm-2">Estrenos</h2>
         </div>
       </div>
-      <div class="col-9">
+      <div class="col-12 col-md-10">
         <div id="carousel2" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -288,13 +307,11 @@
   <!--Carrosel 3 favoritos -->
   <section>
     <div class="container-fluid">
-      <div class="row Rectangle-3">
-        <div class="col-3 col align-self-center">
-          <div class="Texto">
-            <a class="Texto">Favoritos</a>
-          </div>
+      <div class="row Rectangle-3 mb-4">
+        <div class="col-12 col-md-2 d-flex align-items-center">
+          <h2 class="text-white">Favoritos</h2>
         </div>
-        <div class="col-9">
+        <div class="col-12 col-md-10">
           <div id="carousel3" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -430,13 +447,11 @@
   <!--Carrusel 4 Juegos -->
   <section>
     <div class="container-fluid">
-      <div class="row Rectangle-4">
-        <div class="col-3 col align-self-center">
-          <div class="Texto">
-            <a class="Texto">Juegos</a>
-          </div>
+      <div class="row Rectangle-4  mb-4">
+        <div class="col-12 col-md-2 d-flex align-items-center">
+          <h2 class="text-white">Juegos</h2>
         </div>
-        <div class="col-9">
+        <div class="col-12 col-md-10">
           <div id="carousel4" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -541,13 +556,11 @@
   <!--Carrosel 5 Galería de imágenes-->
   <section>
     <div class="container-fluid">
-      <div class="row Rectangle-5">
-        <div class="col-3 col align-self-center">
-          <div class="Texto">
-            <a class="Texto">Galería de imágenes</a>
-          </div>
+      <div class="row Rectangle-5 mb-4">
+        <div class="col-12 col-md-2 d-flex align-items-center">
+          <h2 class="text-white">Galería de imágenes</h2>
         </div>
-        <div class="col-9">
+        <div class="col-12 col-md-10">
           <div id="carousel5" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
@@ -563,52 +576,17 @@
                     <input type="image" id="assasinCreed" src="Imagenes/assasin/assasincreed.jpg" data-toggle="modal"
                       data-target="#pictureGalery" class="Cuadrado">
                   </div>
+                  <!--fin carta-->
                   <!--carta 3 Batman-->
-                  <!--fin carta-->
                   <div class="flip-card">
-                    <input type="image" id="batmanModal" src="Imagenes/batman/batman1.jpg" data-toggle="modal" data-target="#pictureGalery" class="Cuadrado">
-                  </div>
-                   <!--fin carta-->
-                  <!--carta 4 Mortal Kombat-->                 
-                  <div class="flip-card">
-                    <input type="image" id="mortalModal" src="Imagenes/mortal/mortal1.jpg" data-toggle="modal" data-target="#pictureGalery" class="Cuadrado">
+                    <input type="image" id="batmanModal" src="Imagenes/batman/batman1.jpg" data-toggle="modal"
+                      data-target="#pictureGalery" class="Cuadrado">
                   </div>
                   <!--fin carta-->
-                  <!--carta 5 residen evil-->
+                  <!--carta 4 Mortal Kombat-->
                   <div class="flip-card">
-                      <input type="image" id="mortalResident" src="" data-toggle="modal" data- target="#pictureGalery" class="Cuadrado">
-                  </div>
-                  <!--fin carta-->
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="slide-box">
-                  <!--carta 1-->
-                  <div class="flip-card">
-                    <input type="image" src="https://ia.media-imdb.com/images/M/MV5BNTdiZTNmNDAtODUyZC00NGU5LWEyMDEtOWU5NDFmMDg2ZTMwXkEyXkFqcGdeQXVyMzc5ODkzNDE@._V1_SX300.jpg"
-                      class="Cuadrado">
-                  </div>
-                  <!--fin carta-->
-                  <!--carta 2-->
-                  <div class="flip-card">
-                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BMTYxMzM4NDY5N15BMl5BanBnXkFtZTgwNzg1NTI3MzE@._V1_SX300.jpg"
-                      class="Cuadrado">
-                  </div>
-                  <!--carta 3-->
-                  <!--fin carta-->
-                  <div class="flip-card">
-                    <input type="image" src="Imagenes/Mario.jpg" class="Cuadrado">
-                  </div>
-                  <!--carta 4-->
-                  <!--fin carta-->
-                  <div class="flip-card">
-                    <input type="image" src="Imagenes/Lara.jpg" class="Cuadrado">
-                  </div>
-                  <!--fin carta-->
-                  <!--carta 5-->
-                  <div class="flip-card">
-                    <input type="image" src="https://m.media-amazon.com/images/M/MV5BNzE1OTczNTc1OF5BMl5BanBnXkFtZTgwMzgyMDI3MDI@._V1_SX300.jpg"
-                      class="Cuadrado">
+                    <input type="image" id="mortalModal" src="Imagenes/mortal/mortal1.jpg" data-toggle="modal"
+                      data-target="#pictureGalery" class="Cuadrado">
                   </div>
                   <!--fin carta-->
                 </div>
@@ -620,8 +598,6 @@
     </div>
   </section>
   <p></p>
-  <input type="image" src="../Imagenes/assasin/assasin3.jpg" class="Cuadrado">
-  <img src="Imagenes/assasin/assasin1.jpeg" class="Cuadrado">
   <!--fin-->
   <footer class="page-footer font-small">
     <div class="titulo Footer">
@@ -629,7 +605,7 @@
         <div class="row py-4 d-flex align-items-center">
           <div class="col-12">
             <div class="footer-copyright text-center py-3">© 2019 Copyright:
-              <a href="https://github.com/MarceArratia"> FunKids</a>
+              <a href="https://github.com/MarceArratia/proyecto-peliculas" class="text-white">Movie Gamer</a>
             </div>
           </div>
           <div class="col-md-6 col-lg-7 text-center text-md-right">
@@ -660,6 +636,9 @@
   crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
   crossorigin="anonymous"></script>
+<!-- Cambios Paulina -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.1/min/tiny-slider.js"></script>
+<!-- /Cambios Paulina -->
 <script src="main.js"></script>
 <script src="data.js"></script>
 
