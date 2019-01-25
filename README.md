@@ -159,9 +159,14 @@ Este prototipo fue iterado en el mismo equipo previo al trabajo en el prototipo 
 <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgcx6ag7IPJTE54cNkbucIMNL%2FHackaton%3Fnode-id%3D1%253A1043" allowfullscreen></iframe>
 
 
-Este prototipo fue presentado frente a una comisión para presentar la idea y la solución planteada para resolver la misma.  Donde se propuso la posibilidad de que en vez de botones para moverse hacia el lado fuera mediante touch, ya que la pagina sería utilizada principalmente desde dispositivos tablet y celulares, debido al grupo etáreo al cual va dirigido.
+Este prototipo fue presentado frente a una comisión para presentar la idea y la solución planteada para resolver la misma.  Donde se realizaron las siguientes propuestas a incluir o modificar a la propuesta:
 
-Como el público objetivo de la aplicación web niños pequeños, es que nos enfocamos en la usabilidad de la aplicación en dispositivos celular y tablet.
+ - Se nos planteó la posibilidad de incluir un título o información adicional sobre el header para explicitar su uso.
+ - Que la tipografia utilizada no sean más de dos en todo el sitio.
+ - Asegurarnos que la aplicación sea responsive especialmente para tablet y celular, debido al grupo al que va dirigida la App.
+ - En términos de presentación que sea una historia completa y tenga un cierre.
+ - Ver la posibilidad de que en vez de botones para moverse hacia los lados, que esto sea touch, ya que la pagina sería utilizada principalmente desde dispositivos tablet y celulares.
+
 
 Versión Celular Android
 <iframe style="border: none;" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fgcx6ag7IPJTE54cNkbucIMNL%2FHackaton%3Fnode-id%3D63%253A2" allowfullscreen></iframe> 
@@ -185,19 +190,12 @@ Y analógicamente en el tablero proporcionado en Laboratoria.
 
 Describimos los parámetros que analizamos al realizar una evaluación heurística para identificar problemas de usabilidad en nuestra plataforma digital (Leer más sobre el tema [aquí](https://blog.ida.cl/experiencia-de-usuario/que-es-evaluacion-heuristica/)) en especial considerando el grupo de edad al que va dirigida la aplicación web (Leer más sobre el tema [aquí](https://www.nngroup.com/articles/childrens-websites-usability-issues/)).
 
-A partir de est
+A partir de este test
 
 
-****Momentos de testeo con usuarios****
+****User Testing****
 
- 
-Realizamos testeos en diferentes momentos del proyecto:
-
-1) el primero, ya descrito, ocurrió inmediatamente tras comenzar el desafío, entrevistando a tres compañeras, respecto a la información más relevante de los otorgados por la data, a partir de esta información pudimos definir al usuario de la aplicación.
-
-2) el segundo testeo, también mencionado previamente, corresponde al momento de compartir el prototipo de baja fidelidad entre compañeras, de modo de compartir ideas y resolver dudas iniciales. A partir de este proceso, decidimos enfocarnos
-
-3) testeo on usuarios externos. Se realizó 1 entrevistas con usuarios para testear el demo de la aplicación. Se les indicó una tarea a realizar interactuando con el prototipo y luego una pequeña entrevista para recopilar información.
+ Se realizó 1 entrevista con usuario para testear el demo de la aplicación. Se les indicó una tarea a realizar interactuando con el prototipo y luego una pequeña entrevista para recopilar información.
 
 
 La tarea otorgada al usuario fue la siguiente:
@@ -218,16 +216,6 @@ Estas fueron algunas de las respuestas que usamos para ir mejorando el prototipo
 
 - Usuarios Camila y Manuel: Pude Encontrar el Pokémon, pero no me había dado cuenta que uno podía bajar y ver un listado de Pokémon, es tan grande la imagen del inicio que solo se ve ella y el menú de filtrar.
 
-  
-
-  
-
-- Usuarios Daniel y Carla: Se ven muy grandes los Pokemones en pantalla escritorio y pienso que para ir cargando mas Pokemones con el boton "Cargar más" seria muy tedioso ya que solo va mostrando de seis en seis.
-
-
-- Usuario Camila: La pagina no indica en ningún lado que los pokemones son de la Region de Kanto
-
-- Usuario Carla: La portada se me hace muy simple solo tiene el logo Pokemón y una imagen de fondo. Quizás podrían colocar una imagen de algún Pokemon.
 
 A partir del testeo previo se decidieron realizar algunas modificaciones al prototipo inicial:
 
@@ -237,9 +225,6 @@ A partir del testeo previo se decidieron realizar algunas modificaciones al prot
 
 2. Reducción del tamaño de la portada y así hacer entender al usuario que abajo hay mas información y que no solo se trata de una portada y un menú de filtrado.
 
-
-
-  
 
 A la imagen de fondo se le aplico un mayor desenfoque para que la mirada del usuario se centre en el logo. Se creó la imagen de "KANTO" simulando el logo principal y añadimos un Pokémon para llamar la atención y una imagen de césped para simular que el Pokémon y el logo estuvieran en un plano principal.
 
@@ -297,25 +282,3 @@ La meta del la aplicación web es crear un proceso rápido de resolución de bú
 
 Para realizar el diseño final, usamos el programa [Zeplin](https://app.zeplin.io/project/5c4884e635c1a337cdb26f84/dashboard) pasar los elementos del prototipado a código HTML, CSS y JS.
 
-
-****Pantalla inicio****
-
-  
-****Carrusel****
-
-  
-
-****Modal****
-
-  
-****Buscador****
-
-
- 
-
-
-### Aspectos para incorporar en nuevas versiones
-
-- 
-
-- 
