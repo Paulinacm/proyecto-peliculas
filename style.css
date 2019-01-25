@@ -171,8 +171,6 @@ h6, p {
 .row .col-12 h2 {
   margin-top: 1rem;
 }
-}
-
 .carousel-caption {
 background-color: rgba(0, 0, 0, 0.5);
 padding: 20px;
@@ -201,7 +199,10 @@ a:not([href]):not([tabindex]) {
 }
 
 
-
+img {
+  width: 100%;
+  height: auto;
+}
 /*nuevo bloque para mac*/
 
 
