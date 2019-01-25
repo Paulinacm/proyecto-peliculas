@@ -168,14 +168,11 @@ Realizamos una planificación al comienzo del proyecto y volvimos a él cada dos
 
 Describimos los parámetros que analizamos al realizar una evaluación heurística para identificar problemas de usabilidad en nuestra plataforma digital (Leer más sobre el tema [aquí](https://blog.ida.cl/experiencia-de-usuario/que-es-evaluacion-heuristica/)) en especial considerando el grupo de edad al que va dirigida la aplicación web (Leer más sobre el tema [aquí](https://www.nngroup.com/articles/childrens-websites-usability-issues/)).
 
-A partir de este test es posible identificar:
+A partir de este test es posible identificar aspectos a mejorar desde usabilidad como:
 
-
-
-
-
- 
-
+- Diferenciar los vínculos de otros elementos de la página.
+- En el box de búsqueda informar la cantidad de caracteres.
+- Incorporar una sección de preguntas frecuentes.
 
 
  
@@ -227,12 +224,14 @@ La meta del la aplicación web fue que el usuario pudiera tener en un solo lugar
 #### Modal
 ![enter image description here](https://lh3.googleusercontent.com/MV6YwIfqsbcWQfUtLk5PEm-rKN1d7u6c5Uxg5TPUSYg146JalDlHnarSvvaIZ1aTCzbzAtmwl9KC "1")
 ![enter image description here](https://lh3.googleusercontent.com/bo4hiX5eM8rGf6RH_KIo6A00A_tScCrnwBlmqmQCcmxdus5XqHerKr3ARtawOXIj-s7cyDIz628Z "1")
-### AUTORÍA
+### Autoría
 
--   Marcela Arratia: FrontEnd  
+-   Marcela Arratia: FrontEnd 
+    Encargada de la funcionalidad de la página, estructura Html, JS y Bootstrap.
 -   Blanca Carrasco: FrontEnd
-- Paulina Contreras: UX Designer
-    
+    Encargada de incorporar imágenes en sección Estrenos.  Encargada de Trello e Historias de Usuario.
+-   Paulina Contreras: UX Designer
+    Encargada de los prototipos de baja y alta fidelidad en Figma, CSS, escritura de Readme.  Testeo Heurístico.
 
 ESTUDIANTES LABORATORIA, 7ma. Generación.  
 Santiago de Chile, enero de 2019.
