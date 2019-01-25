@@ -68,46 +68,58 @@ document.getElementById("pictureAssasin").addEventListener("click",function(){
 
 //Wifi ralph modal
 document.getElementById("wifiRalph").addEventListener("click",function(){
-document.getElementById("repoGalery").innerHTML ="<input type='image' src='../Imagenes/ralph/ralph1.jpeg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph2.jpeg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph3.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph4.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph5.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph6.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph7.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph8.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph9.jpeg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph10.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/ralph/ralph1.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph2.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph3.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph4.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph5.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph6.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph7.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph8.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph9.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/ralph/ralph10.jpg' class='Cuadrado'>";
 document.getElementById("pictureGaleryLabel").innerHTML="Ralph,escenas Película";
 });
 //Assassin's Creed modal galeria imagenes
 document.getElementById("assasinCreed").addEventListener("click",function(){ 
-document.getElementById("repoGalery").innerHTML ="<input type='image' src='/Imagenes/assasin/assasin3.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin6.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin1.jpeg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin4.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin5.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin2.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin7.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin8.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin9.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin10.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/assasin/assasin3.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin6.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin1.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin4.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin5.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin2.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin7.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin8.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin9.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/assasin/assasin10.jpg' class='Cuadrado'>";
 document.getElementById("pictureGaleryLabel").innerHTML="Assassin's Creed,escenas Película";
 });
 //Batman modal galeria imagenes
-document.getElementById("batmanModal").addEventListener("click",function(){ 
-    document.getElementById("repoGalery").innerHTML ="<input type='image' src='/Imagenes/assasin/assasin3.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin6.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin1.jpeg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin4.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin5.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin2.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin7.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin8.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin9.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/assasin/assasin10.jpg' class='Cuadrado'>";
-    document.getElementById("pictureGaleryLabel").innerHTML="Assassin's Creed,escenas Película";
+document.getElementById("batmanModal").addEventListener("click",function(){     
+    document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/batman/batman2.jpg' class='Cuadrado'>";    
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman3.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman4.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman5.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman6.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman7.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman8.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman9.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman10.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman11.jpg' class='Cuadrado'>";
+    document.getElementById("pictureGaleryLabel").innerHTML="Batman,escenas Película";
     });
-
-
-
+//Mortal kombat modal galeria imagenes
+document.getElementById("mortalModal").addEventListener("click",function(){     
+    document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/mortal/mortal2.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal3.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal4.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal5.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal6.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal7.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal8.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal9.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal0.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal11.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/personajes.jpg' class='Cuadrado'>";  
+    document.getElementById("pictureGaleryLabel").innerHTML="Mortal Kombat,escenas Película";
+});

@@ -19,13 +19,13 @@ function searchMovie(title,modal){// (title,1)se ocupa en
 function printMovie(data){
     document.getElementById("modalMovie").innerHTML = "";
     document.getElementById("modalMovie").innerHTML +="Actores : "+data.Actors+"</p>";
-    document.getElementById("modalMovie").innerHTML +="Sitio Web : "+"<a href='"+data.Website+"'>"+data.Website+"</a></p>";
+    document.getElementById("modalMovie").innerHTML +="Sitio Web : "+"<a href='"+data.Website+"' target='_blank'>"+data.Website+"</a></p>";
     console.log(data);
 } 
 function printMovieOther(data){
     document.getElementById("footerModalFind").innerHTML = "";
     document.getElementById("footerModalFind").innerHTML +="Actores : "+data.Actors+"</p>";
-    document.getElementById("footerModalFind").innerHTML +="Sitio Web : "+"<a href='"+data.Website+"'>"+data.Website+"</a></p>";
+    document.getElementById("footerModalFind").innerHTML +="Sitio Web : "+"<a href='"+data.Website+"' target='_blank'>"+data.Website+"</a></p>";
     document.getElementById("modalFindLabel").innerHTML =data.Title; 
     console.log(data);
 }
