@@ -68,11 +68,11 @@ document.getElementById("pictureAssasin").addEventListener("click",function(){
 
 //Wifi ralph modal
 document.getElementById("wifiRalph").addEventListener("click",function(){
-document.getElementById("repoGalery").innerHTML ="<input type='image' src='/Imagenes/ralph/ralph1.jpeg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph2.jpeg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph3.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph4.jpg' class='Cuadrado'>";
-document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph5.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML ="<input type='image' src='../Imagenes/ralph/ralph1.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph2.jpeg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph3.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph4.jpg' class='Cuadrado'>";
+document.getElementById("repoGalery").innerHTML +="<input type='image' src='../Imagenes/ralph/ralph5.jpg' class='Cuadrado'>";
 document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph6.jpg' class='Cuadrado'>";
 document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph7.jpg' class='Cuadrado'>";
 document.getElementById("repoGalery").innerHTML +="<input type='image' src='/Imagenes/ralph/ralph8.jpg' class='Cuadrado'>";
