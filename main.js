@@ -96,18 +96,30 @@ document.getElementById("pictureGaleryLabel").innerHTML="Assassin's Creed,escena
 });
 //Batman modal galeria imagenes
 document.getElementById("batmanModal").addEventListener("click",function(){     
-    document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/Batmas/batman2.jpg' class='Cuadrado'>";    
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman3.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman4.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman5.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman6.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman7.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman8.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman9.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman10.jpg' class='Cuadrado'>";
-    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/Batmas/batman11.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/batman/batman2.jpg' class='Cuadrado'>";    
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman3.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman4.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman5.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman6.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman7.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman8.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman9.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman10.jpg' class='Cuadrado'>";
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/batman/batman11.jpg' class='Cuadrado'>";
     document.getElementById("pictureGaleryLabel").innerHTML="Batman,escenas Película";
     });
-
-
-
+//Mortal kombat modal galeria imagenes
+document.getElementById("mortalModal").addEventListener("click",function(){     
+    document.getElementById("repoGalery").innerHTML ="<img src='Imagenes/mortal/mortal2.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal3.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal4.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal5.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal6.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal7.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal8.jpg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal9.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal0.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/mortal11.jpeg' class='Cuadrado'>";  
+    document.getElementById("repoGalery").innerHTML +="<img src='Imagenes/mortal/personajes.jpg' class='Cuadrado'>";  
+    document.getElementById("pictureGaleryLabel").innerHTML="Mortal Kombat,escenas Película";
+});
